@@ -49,5 +49,5 @@ fn main() {
     }
 
     // Check out the csv crate docs for more
-    // You can also change the delimeter for TSV
+    // You can also change the delimiter for TSV
 }
