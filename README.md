@@ -1,5 +1,8 @@
 # DOR
 
-> 24 Days of Rust
+> Days of Rust
 
-[Link](https://zsiciarz.github.io/24daysofrust/index.html)
+[24 Days of Rust](https://zsiciarz.github.io/24daysofrust/index.html)
+
+1. [Primal](primal)
+2. [CSV](csv)
