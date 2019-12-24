@@ -6,3 +6,4 @@
 2. [CSV](csv)
 3. [GetOpts](getopts)
 4. [DocOpt](docopt)
+5. [Hyper](hyper)
