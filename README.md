@@ -7,7 +7,7 @@
 3. [GetOpts](getopts)
 4. [DocOpt](docopt)
 5. [Hyper](hyper)
-6. Tokio
+6. [Tokio](tokio)
 7. Json
 8. Itertools
 9. Anymap
