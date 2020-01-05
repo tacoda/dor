@@ -12,9 +12,19 @@ use hyper_learn;
 // }
 
 // Echo:
+// #[tokio::main]
+// async fn main() -> Result<(), Box<dyn std::error::Error + Send + Sync>> {
+//     hyper_learn::server::echo::main().await
+// }
+
+// Graceful shutdown:
 #[tokio::main]
 async fn main() -> Result<(), Box<dyn std::error::Error + Send + Sync>> {
-    hyper_learn::server::echo::main().await
+    if let Err(e) = hyper_learn::server::shutdown::main().await {
+        eprintln!("Server error: {}", e);
+        println!("Server error: {}", e);
+    }
+    Ok(())
 }
 
 // ***Client***
