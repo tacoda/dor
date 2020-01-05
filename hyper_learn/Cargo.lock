@@ -129,14 +129,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 
 [[package]]
 name = "hyper"
-version = "0.1.0"
-dependencies = [
- "hyper 0.13.1 (registry+https://github.com/rust-lang/crates.io-index)",
- "tokio 0.2.6 (registry+https://github.com/rust-lang/crates.io-index)",
-]
-
-[[package]]
-name = "hyper"
 version = "0.13.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 dependencies = [
@@ -156,6 +148,14 @@ dependencies = [
  "tokio 0.2.6 (registry+https://github.com/rust-lang/crates.io-index)",
  "tower-service 0.3.0 (registry+https://github.com/rust-lang/crates.io-index)",
  "want 0.3.0 (registry+https://github.com/rust-lang/crates.io-index)",
+]
+
+[[package]]
+name = "hyper_learn"
+version = "0.1.0"
+dependencies = [
+ "hyper 0.13.1 (registry+https://github.com/rust-lang/crates.io-index)",
+ "tokio 0.2.6 (registry+https://github.com/rust-lang/crates.io-index)",
 ]
 
 [[package]]
