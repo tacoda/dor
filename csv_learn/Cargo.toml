@@ -1,5 +1,5 @@
 [package]
-name = "csv"
+name = "csv_learn"
 version = "0.1.0"
 authors = ["Ian Johnson <ijohnson@covermymeds.com>"]
 edition = "2018"
