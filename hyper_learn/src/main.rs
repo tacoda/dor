@@ -36,7 +36,13 @@ use hyper_learn;
 // }
 
 // Advanced client usage:
+// #[tokio::main]
+// async fn main() -> Result<(), Box<dyn std::error::Error + Send + Sync>> {
+//     hyper_learn::client::advanced::main().await
+// }
+
+// Client configuration:
 #[tokio::main]
 async fn main() -> Result<(), Box<dyn std::error::Error + Send + Sync>> {
-    hyper_learn::client::advanced::main().await
+    hyper_learn::client::config::main().await
 }
